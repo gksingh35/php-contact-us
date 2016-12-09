@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $message = $_POST['message'];
     $subject = $_POST['subject'];
 
-    $to = 'support@rbcapp.com';
+    $to = 'support@example.com';
     $header = "From:$email \r\n";
     $header .= "Reply-To: $email\r\n";
     $header .= "X-Mailer: PHP/" . phpversion();
