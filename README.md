@@ -1,2 +1,2 @@
-# php-contact-us
+# PHP Contact Us
 PHP Contact Us with jQuery and Bootstrap
